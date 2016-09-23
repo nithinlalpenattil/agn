@@ -1,36 +1,89 @@
-#about{background-color: #FF6699;
-                   color: #ffffff;}
-#body{width: 50%;}
+
+@media screen and (min-width: 480px) {
+    *{
+        font-family: 'Nunito', sans-serif;
+    }
+}
+    
+#about{ color: cyan;
+        background-image: url("http://www.printawallpaper.com/upload/designs/india_vector_detail.jpg");
+    background-attachment: fixed;}
+
+#about1{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+#body{width: 50%;
+     font-weight: bolder;}
+
+
+#contact {
+   margin-left: 20%;
+  margin-right: 20%;
+ margin-bottom: 5%;
+    color: aliceblue;
+    height: 600px;
+    padding-top: 15%;
+}
+
 
 #profile{
-    -webkit-transition: background-color 2s;
-}
-#contact {
-       margin-left: 20%;
-       margin-right: 20%;
-       margin-bottom: 5%;
-       padding: 5px 5px;
-    color: aliceblue;
-}
-#contactbox{
-           background-color:;
-           opacity: 0.5;
-           background-image: url(contact.jpg);
+    background-color: rgba(168, 1, 123, 0.5);
+
 }
 
+
+
+#contactbox{
+           background-color:#111;
+           opacity: .9;
+           background-image: url(contact.jpg);
+           background-attachment: fixed;
+}
+
+
+
 #footer{
-    background-color: ;
+    background-color: rgba(168, 1, 123, 0.5);
     color: #666;
 }
 
-input{color: blue;
-      padding: 5px 5px;
+
+
+#carousel{
+color: #ffffff;
+}
+
+
+
+input{           color: blue;
+               padding: 5px 5px;
       background-color: yellow;
-      border: 5px solid white;
-      margin-bottom: 5px;
-    border-left-width: 5px 5px;
-      -webkit-box-shadow: 13px 17px 31px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 13px 17px 31px 0px rgba(0,0,0,0.75);
-box-shadow: 13px 17px 31px 0px rgba(0,0,0,0.75);
+                border: 5px solid white;
+         margin-bottom: 5px;
+     border-left-width: 5px 5px;
+    -webkit-box-shadow: 13px 17px 31px 0px rgba(0,0,0,0.75);
+       -moz-box-shadow: 13px 17px 31px 0px rgba(0,0,0,0.75);
+            box-shadow: 13px 17px 31px 0px rgba(0,0,0,0.75);
+            border-radius: 3px 3px;
       
       }
+
+input:hover { 
+    background-color: white;
+    border: 5px solid yellow;
+}
+
+
+#intro{
+    background-image: url("agnespenattil.com.jpg");
+    
+}
+
+
+/*#first{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 98.4%;
+    width: 100%;
+}*/
