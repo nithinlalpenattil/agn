@@ -1,3 +1,4 @@
+#body{cursor: url(https://gifprint.s3.amazonaws.com/p/gif/56316/39cb1e90c7d901332b0236c13a486f67.gif);}
 
 @media screen and (min-width: 480px) {
     *{
@@ -29,8 +30,14 @@
 }
 
 
+#intro{
+    background-image: url("");
+    
+}
+
+
 #profile{
-    background-color: rgba(168, 1, 123, 0.5);
+    background-color: 0rgba(168, 1, 123, 0.5);
 
 }
 
@@ -77,10 +84,7 @@ input:hover {
 }
 
 
-#intro{
-    background-image: url("agnespenattil.com.jpg");
-    
-}
+
 
 
 /*#first{
